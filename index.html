@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Toggle Multi Password Fields</title>
+</head>
+<body>
+  <div class="container">
+      <form>
+          <div>
+            <label for="current-password">Current Password</label>
+            <input type="password" name="current-password" id="current-password">
+          </div>
+        
+          <div>
+            <label for="new-password">New Password</label>
+            <input type="password" name="new-password" id="new-password">
+          </div>
+        
+          <div>
+            <label for="show-passwords">
+              <input type="checkbox" name="show-passwords" id="show-passwords">
+              Show passwords
+            </label>
+          </div>
+        
+          <p>
+            <button type="submit">Change Passwords</button>
+          </p>
+        </form>
+  </div>
+  
+  <script src="js/multiPassFields.js"></script>
+</body>
+</html>
